@@ -70,6 +70,6 @@ jobs:
           app-name: 'getDataFromDatabase'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1E8112A0591F4B92AB89032AD7AF3A5C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9965B726775C4196A2ECB3D72780F9A1 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
